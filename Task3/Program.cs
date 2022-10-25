@@ -18,5 +18,5 @@ int x = x1 - x2;
 int y = y1 - y2;
 
 double Lenght = Math.Sqrt(x * x + y * y);    // Возводим в квадрат.
-Console.Write(Lenght);
+Console.Write($"{Lenght:f2}");
 
