@@ -12,7 +12,7 @@ int N = Prompt("Enter a number greater 0: ");
 
 int count = 1;                                    // Счетчик.
 
-for (int i = 1; i <= N; i++)
+for (int i = 1; i <= N; i++)                      // 
 {
     Console.WriteLine(Math.Pow(i, 2));
 }
